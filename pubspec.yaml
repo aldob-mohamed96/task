@@ -1,0 +1,54 @@
+name: task
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.1.1
+  cloud_firestore: ^4.0.4
+  firebase_auth: ^4.1.1
+  google_sign_in: ^5.4.2
+  sign_in_with_apple: ^4.2.0
+  crypto: ^3.0.2
+  font_awesome_flutter: ^10.2.1
+  google_fonts: ^3.0.1
+  provider: ^6.0.4
+  rxdart: ^0.27.5
+  json_annotation: ^4.7.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.2
+  json_serializable: ^6.5.4
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/json/
+    - assets/translations/
+
+  fonts:
+    #asset font type Montserrat
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+
+
+
