@@ -38,15 +38,6 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-  assets:
-    - assets
-
-  fonts:
-    #asset font type Montserrat
-    - family: Montserrat
-      fonts:
-        - asset: assets/fonts/Montserrat-Bold.ttf
-          weight: 700
 
 
 
